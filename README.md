@@ -1,37 +1,30 @@
-# orthomobile-v220
-"MVP Orthomobile – plateforme de télé-orthophonie"
-# Ortomobile 🚀  
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-**Ortomobile** est une plateforme innovante de télé-orthophonie permettant , aux parents et aux orthophonistes de collaborer facilement.  
+## Getting Started
 
-## 🎯 Objectifs  
-- Offrir un accès simplifié aux séances d’orthophonie pour tous les enfants.  
-- Garantir un suivi sécurisé et conforme (confidentialité, consentement).  
-- Faciliter la coordination entre **parents**, **orthophonistes** .  
+First, run the development server:
 
-## ✨ Fonctionnalités principales  
-- 🔐 Authentification sécurisée (parents, orthophonistes, écoles).  
-- 📅 Agenda partagé avec prise de RDV et paiement en ligne.  
-- 🎥 Visioconférence intégrée (Jitsi).  
-- 📄 Génération et partage de rapports PDF et factures.  
-- 📊 Tableau de bord orthophoniste (finances, export CSV).  
-- 🏫 Dashboard école (agenda élèves, documents partagés).  
-
-## 🛠️ Stack technique  
-- **Next.js 14** (React, TypeScript, TailwindCSS).  
-- **Supabase** (Base de données, Auth, Storage, RLS).  
-- **Stripe** (paiements).  
-- **Resend** (emails transactionnels).  
-
-## ⚙️ Installation locale  
 ```bash
-# Cloner le repo
-git clone https://github.com/TON_USER/ortomobile.git
-cd ortomobile
-
-# Installer les dépendances
-pnpm install
-
-# Lancer le projet en local
+npm run dev
+# or
+yarn dev
+# or
 pnpm dev
+# or
+bun dev
+```
 
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+
+## Learn More
+
+To learn more about Next.js, take a look at the following resources:
+
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
