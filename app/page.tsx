@@ -1,0 +1,1 @@
+export default function Home() { return (<main style={{ textAlign: "center", marginTop: "50px" }}><h1>🚀 Bienvenue sur Orthomobile V220</h1><p>Ton site Next.js est en ligne avec Vercel 🎉</p></main>); }
