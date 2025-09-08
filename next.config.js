@@ -1,12 +1,6 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {
-  output: "export",
-  images: {
-    unoptimized: true,
-  },
-  typescript: {
-    // ignoreBuildErrors: true,
-  },
-};
+// next.config.js
 
-module.exports = nextConfig;
+module.exports = {
+  // Autres configurations...
+  // output: 'export' // Suppression de cette ligne
+};
